@@ -1,0 +1,50 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: 'Poppins', "open-sans";
+}
+.pTag{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    font-weight: 600;
+    color:black
+}
+.MainDiv{
+    position: relative;
+    top:50px ;
+    width: 800px;
+    height: 180px;
+    display: flex;
+    margin-left: 50px;
+    gap: 10px;
+    font-weight: 400;
+}
+.MainDiv .contentDiv{
+    height: 100%;
+    width: 48%;
+    background: #F9FCFF;
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+.MainDiv .contentDiv div span {
+   height: 20px;
+   width: 20px;
+   background-color: aqua;
+}
+
+.headingDiv{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: sp;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.headingDiv img{
+    height: 12px;
+    width: 12px;
+    margin-top: 13px;
+}

@@ -1,0 +1,113 @@
+
+.rightPane {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .loginForm {
+    width: 80%;
+    max-width: 400px;
+    background-color: white;
+    padding: 0 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+ .loginForm h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 2rem;
+  }
+  
+  .inputGroup {
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+  }
+  .inputGroup  img{
+    height: 28px;
+    padding-right: 10px;
+  }
+  .inputGroup input{
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+ 
+  .loginButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #17A2B8; /* Teal button */
+    color: white;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .loginButton:hover {
+    background-color: #008ba3; /* Darker teal on hover */
+  }
+  
+  a {
+    color: #17A2B8;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .register{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border:  1px solid #17A2B8;;
+    background-color: transparent;
+    color: #008ba3;
+  }
+.error{
+  display: flex;
+  align-items: start;
+  position: relative;
+  bottom: 27px;
+}
+.error p{
+  padding-top: 7px;
+  font-size: 14px;
+}
+.correctEmail{
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  bottom: 17px;
+  font-size: 13px;
+}
+
+.para{
+  margin: 13px 0;
+}
+.correctEmail{
+  position: absolute;
+  bottom: 55%;
+  right: 21.4%;
+  color:red;
+}
+.correctPassword{
+  position: absolute;
+  bottom: 46.5%;
+  right: 20%;
+  color:red;
+  font-size: 13px;
+}

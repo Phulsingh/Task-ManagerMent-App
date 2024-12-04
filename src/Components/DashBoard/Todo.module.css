@@ -1,0 +1,232 @@
+.TodoContainer{
+    display: flex;
+  padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%; 
+    cursor: pointer;cursor: pointer;
+}
+.plus{
+   position: relative;
+   right: 10px;
+   cursor: pointer;
+}
+
+.moduleOverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .moduleContainer{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    width: 45vw;
+    max-width: 90%;
+    height: 80vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color :black;
+    cursor: pointer;
+  }
+  .moduleContainer span{
+    padding-left: 0.5vw ;
+    color: red;
+  }
+  .moduleContainer input{
+    width: 100%;
+    outline: none;
+    margin-top: 5px;
+    padding:  8px;
+    border: 1px solid #b3b2b2f7;
+    border-radius: 5px;
+  }
+  .SelectPriority{
+    margin-top: 10px;
+    display: flex;
+    align-items:start;
+    justify-content: start;
+    width: 100%;
+    gap: 5px;
+    cursor: pointer;
+  }
+  .selectTag{
+    display: flex;
+    align-items: center;
+    width: 40%;
+  }
+  .priorityButton{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+  .priorityButton button{
+    padding: 3px 4px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 193, 193);
+    font-size: 12px;
+    width: 165px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+  
+  .taskContainer{
+      height: 70%;
+  }
+  
+  .checklist{
+    margin-top: 10px;
+    display: flex;
+  }
+  .dateSelectorBtns{
+    position: relative;
+    bottom: 65px;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    cursor: pointer;
+  }
+  
+  .dateSelectorBtns input{
+    width: 13vw;
+    cursor: pointer;
+  }
+  .dateSelectorBtns .saveCancelBtn {
+     width: 60%;
+  }
+  .dateSelectorBtns .saveCancelBtn button{
+    width: 45%;
+    height: 40px;
+    padding: 6px 9px;
+    margin: 0 5px;
+    border-radius: 7px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+  }
+  
+  .taskList {
+    max-height: 220px; /* Limit the height of the task list */
+    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+    margin-top: 10px; /* Make room for the scrollbar */
+  }
+  .checklist2{
+    border: 1px solid rgb(162, 161, 161);
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    align-items: center;
+    justify-content:center;
+    float: left;
+    padding: 0 15px;
+  }
+  .checklist2 input{
+    border: none;
+    outline: none;
+  }
+  .addTask{
+    display: flex;
+    width: 50px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+    margin-top: 1%;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .AssignTo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .taskList {
+    
+    max-height: 220px; /* Limit the height of the task list */
+    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+    margin-top: 10px; /* Make room for the scrollbar */
+  }
+
+  .checklist2{
+    border: 1px solid rgb(162, 161, 161);
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    align-items: center;
+    justify-content:center;
+    float: left;
+    padding: 0 15px;
+  }
+  .checklist2 input{
+    border: none;
+    outline: none;
+  }
+
+  .modulOverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .modulContainer{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    max-width: 80%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .savCancelBtn{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    align-items: center;
+    gap: 20px;
+
+  }
+  .savCancelBtn button{
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+  }
+
+
+
+

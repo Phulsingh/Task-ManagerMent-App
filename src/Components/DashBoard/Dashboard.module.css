@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.MainContainer {
+  padding: 0 1%;
+  height: 100vh;
+  width: calc(100vw - 200px);
+  overflow-x: auto; /* Horizontal scrollbar *//* No vertical scrollbar */
+}
+
+/* Custom scrollbar styling */
+.MainContainer ::-webkit-scrollbar {
+  height: 8px; /* Adjust height for the scrollbar */
+}
+
+.MainContainer ::-webkit-scrollbar-track {
+  background: #e0e0e0; /* Track color */
+  border-radius: 10px;
+}
+
+.MainContainer ::-webkit-scrollbar-thumb {
+  background-color: #90a4ae; /* Thumb color */
+  border-radius: 10px;
+}
+
+.welComeMessage {
+  width: 100%;
+  display: flex;
+  height: 5vh;
+  align-items: center;
+  justify-content: space-between;
+  text-align: start;
+  float: left;
+  padding: 2.5% 0;
+}
+
+.welComeMessage p {
+  color: #707070;
+  font-weight: 500;
+}
+.board {
+  display: flex;
+  width: 100%;
+  height: 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+.boardDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.boardDiv img{
+    margin-left: 10px;
+}
+.boardDiv p{
+    margin-bottom: 7px;
+}
+.noBorder{
+  border: none;
+  outline: none;
+}
+.noBorder select option{
+  border: none;
+  outline: none;
+}
+.mainComponent{
+  display: flex;
+  width: 100vw;
+  height: 83vh;
+  overflow-y: hidden;
+}

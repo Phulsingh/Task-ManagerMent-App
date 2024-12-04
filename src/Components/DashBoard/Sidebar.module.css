@@ -1,0 +1,113 @@
+.sidebar {
+    width: 200px; /* 25% width of the viewport */
+    height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column; /* Column layout */
+    justify-content: space-between; /* Space between top and bottom sections */
+    border-right: 1px solid #ddd; /* Optional: Add a right border */
+    font-family:  'Poppins';
+  }
+  .sidebarHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    column-gap: 5px;
+    height: 10%;
+  }
+  
+  .sidebarMenu {
+    list-style: none;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  
+  }
+  
+  .sidebarMenuItem {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    padding-left: 2vw;
+    text-align: center;
+    gap: 8px;
+    height: 10%;
+    cursor: pointer;
+  }
+  
+  .sidebarMenuItem button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color:#707070;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+  
+  }
+  .sidebarMenuItem:hover {
+    background-color: #4391ED1A; /* Light hover effect */
+    color: black;
+  }
+  
+  .sidebarMenuItem.active {
+    background-color: #4391ED1A;
+    /* Highlight the active item */
+  }
+  
+  .sidebarFooter {
+    margin-bottom: 60px;
+    text-align: center;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .sidebarFooter button{
+    font-size: 15px;
+
+  }
+  
+  .logoutBtn {
+    color: #CF3636;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .logoutBtn:hover {
+    color: darkred;
+  }
+
+  .popup{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+  }
+
+
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+
